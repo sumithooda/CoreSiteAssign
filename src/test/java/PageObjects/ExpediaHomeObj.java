@@ -44,7 +44,7 @@ public class ExpediaHomeObj extends BaseUtils {
     @FindBy(how = How.XPATH, using = "//span[text()='Done']")
     public WebElement dateDoneBtn;
 
-    @FindBy(how = How.XPATH, using = "//button[contains(@aria-label,'travelers')]")
+    @FindBy(how = How.XPATH, using = "//*[contains(@aria-label,'travelers')]")
     public WebElement travelersSelect;
 
     @FindBy(how = How.XPATH, using = " //input[@id='adult-input-0']")
