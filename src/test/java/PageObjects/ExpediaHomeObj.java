@@ -116,7 +116,6 @@ public class ExpediaHomeObj extends BaseUtils {
 
             Click(driver, nextMonth);
             currentMonthSelected = datePickerMonth.getText();
-            System.out.print("current + "+ currentMonthSelected + " " +getDateMonth(date)[1].toString());
         }
         List<WebElement> el = daySelect;
         if (!el.isEmpty()) {
